@@ -11,7 +11,7 @@ function App() {
         element: <PokeGrid/>
     },
     {
-        path:'/details',
+        path:'/details/:id',
         element: <PokeDetails />
     }
 ]);

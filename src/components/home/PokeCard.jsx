@@ -9,7 +9,7 @@ export const PokeCard = ({ data }) => {
   const { id, sprites, types, name } = data;
 
   return (
-    <Link to={"/Details"}>
+    <Link to={"/details/" + id}>
       <Card sx={{ maxWidth: 400 }}>
         <CardActionArea>
           <CardMedia
