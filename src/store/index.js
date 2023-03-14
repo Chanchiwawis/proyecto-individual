@@ -1,7 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
+import { pokemonSlice } from './slices/index';
 
 export default configureStore({
-    reducer: {
-
-    }
+  reducer: {
+    pokemons: pokemonSlice.reducer
+  }
 });

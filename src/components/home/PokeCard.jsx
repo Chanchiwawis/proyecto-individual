@@ -15,7 +15,7 @@ export const PokeCard = () => {
             component="img"
             height="140"
             image={""}
-            alt="green iguana"
+            alt="foto"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
