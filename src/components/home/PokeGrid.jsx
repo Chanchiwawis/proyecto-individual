@@ -13,8 +13,6 @@ export const PokeGrid = () => {
     dispatch(fetchPokemons());
   }, [])
   
-  console.log(pokemonList)
-
   return (
     <Grid container spacing={3}>
       {pokemonList.length === 0 ? (
