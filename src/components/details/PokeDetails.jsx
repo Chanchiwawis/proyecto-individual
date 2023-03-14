@@ -6,7 +6,7 @@ import { CardActionArea } from "@mui/material";
 import { useParams } from "react-router-dom";
 
 export const PokeDetails = () => {
-  const params = useParams();
+  //const params = useParams();
 
   return (<Card>
     <CardActionArea>
