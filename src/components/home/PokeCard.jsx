@@ -4,6 +4,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
+import React from "react";
 
 export const PokeCard = ({ data }) => {
   const { id, sprites, types, name } = data;

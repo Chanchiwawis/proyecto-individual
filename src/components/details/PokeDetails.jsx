@@ -5,6 +5,7 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+import React from "react";
 
 export const PokeDetails = () => {
   const params = useParams();
